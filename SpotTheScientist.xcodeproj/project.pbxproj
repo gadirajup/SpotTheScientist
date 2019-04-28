@@ -13,6 +13,8 @@
 		A41C25A022761717008D7C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C259E22761717008D7C83 /* Main.storyboard */; };
 		A41C25A222761717008D7C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41C25A122761717008D7C83 /* Assets.xcassets */; };
 		A41C25A522761717008D7C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C25A322761717008D7C83 /* LaunchScreen.storyboard */; };
+		A41C25AD22761BEA008D7C83 /* scientists.json in Resources */ = {isa = PBXBuildFile; fileRef = A41C25AC22761BEA008D7C83 /* scientists.json */; };
+		A41C25AF22761C01008D7C83 /* Scientist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C25AE22761C01008D7C83 /* Scientist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A41C25A122761717008D7C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41C25A422761717008D7C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41C25A622761717008D7C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41C25AC22761BEA008D7C83 /* scientists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scientists.json; sourceTree = "<group>"; };
+		A41C25AE22761C01008D7C83 /* Scientist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scientist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				A41C259E22761717008D7C83 /* Main.storyboard */,
 				A41C25A122761717008D7C83 /* Assets.xcassets */,
 				A41C25A322761717008D7C83 /* LaunchScreen.storyboard */,
+				A41C25AC22761BEA008D7C83 /* scientists.json */,
+				A41C25AE22761C01008D7C83 /* Scientist.swift */,
 				A41C25A622761717008D7C83 /* Info.plist */,
 			);
 			path = SpotTheScientist;
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41C25AD22761BEA008D7C83 /* scientists.json in Resources */,
 				A41C259B22761717008D7C83 /* art.scnassets in Resources */,
 				A41C25A522761717008D7C83 /* LaunchScreen.storyboard in Resources */,
 				A41C25A222761717008D7C83 /* Assets.xcassets in Resources */,
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A41C259D22761717008D7C83 /* ViewController.swift in Sources */,
+				A41C25AF22761C01008D7C83 /* Scientist.swift in Sources */,
 				A41C259922761717008D7C83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
